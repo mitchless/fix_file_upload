@@ -8,5 +8,5 @@
 # Buildfile, which contains default settings for all apps in your project.
 
 # It is better to add :required targets here than in the global Buildfile.
-config :fix_file_upload, :required => :sproutcore
+config :fix_file_upload, :required => [:sproutcore, :'sproutcore-upload']
 
